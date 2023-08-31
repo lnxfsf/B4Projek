@@ -1,0 +1,312 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+/* emoji rendering */
+img.emoji {
+    /* Since we are using SVGs, you have to change the width using CSS */
+    width: 1.5em;
+
+    /* 
+            This is to make the emojis feel like actual emojis to 
+            the user and they won't act like images. This makes the emojis
+            non-reactive to any mouse events such as dragging, 
+            hovering, clicking etc. Makes it feel like its actual text.
+            */
+    display: inline;
+    pointer-events: none;
+}
+
+
+
+
+/* kartica vertikalna */
+.card_vertical {
+
+
+
+    background-color: #2F3340;
+
+
+
+
+    --padding-horizontal: 3rem;
+    --padding-vertical: 3rem;
+
+
+
+    padding: var(--padding-vertical) var(--padding-horizontal);
+
+    /* margin-top: 1.3rem;
+
+ spacing: 1.75rem;
+
+/* width: 24.35rem;  */
+
+    vertical-align: auto;
+
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 1em;
+    width: 90%;
+
+
+
+    @media only screen and (min-width: 500px) and (max-width: 700px) {
+        width: 60%;
+
+
+    }
+
+
+    @media only screen and (min-width: 701px) {
+        margin-top: 3em;
+        width: 35%;
+
+    }
+
+}
+
+
+/* logo u vertikalna kartica */
+.landing_page_div_logo {
+    width: 80px;
+    height: 80px;
+
+
+    /* smanji image da fit u <div> */
+    -webkit-transform: scale(0.6);
+
+
+}
+
+
+/* h2 u kartici vertikalnoj */
+.card_vertical_text_header {
+
+
+    /*font-size: 2.5em; */
+    font-size: 9vw;
+    line-height: 1.25;
+    letter-spacing: 0rem;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: bold;
+    text-align: center;
+
+    background-image: linear-gradient(45deg, #695EE6 0%, #FF7A7A 85%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent !important;
+
+    opacity: 1;
+
+
+
+    @media only screen and (min-width: 500px) and (max-width: 700px) {
+        font-size: 5vw;
+
+    }
+
+    @media only screen and (min-width: 701px) {
+        font-size: 4.2vw;
+    }
+
+
+
+}
+
+/* text u kartici vertikalnoj */
+.card_vertical_text {
+
+    font-family: 'Inter', sans-serif;
+    color: rgba(255, 255, 255, 0.588);
+    font-size: 2.3vw;
+    line-height: 1.875;
+
+    font-weight: 400;
+    opacity: 1;
+    text-align: center;
+
+
+    
+
+
+
+
+
+
+    
+    @media only screen and (min-width: 500px) and (max-width: 700px) {
+        font-size: 2vw;
+
+    }
+
+    @media only screen and (min-width: 701px) {
+        font-size: 1.2vw;
+    }
+
+
+
+}
+
+
+
+
+.card_horizontal {
+
+
+    margin-top: 0;
+
+
+    
+
+
+    @media only screen and (min-width: 500px) {
+
+        width: 90%;
+
+
+    }
+    
+
+
+
+
+}
+
+
+@media only screen and (max-width: 700px) {
+    .flex_col_mobile {
+
+        @apply flex-col gap-8 ;
+    }
+         
+
+  
+    
+}
+
+
+.card_horizontal_text {
+    
+
+    @media only screen and (max-width: 700px) {
+        font-size: 3vw;
+   
+   }
+   
+    
+
+    
+}
+
+
+.card_vertical_text_header_card {
+
+ font-size: 4vw;
+
+
+
+ @media only screen and (max-width: 700px) {
+     font-size: 6vw;
+
+}
+
+
+
+}
+
+
+
+
+
+.image {
+
+    
+    height: 28vw;
+    width: 38vw;
+    
+    
+
+    @media only screen and (max-width: 700px) {
+    height: 55vw;
+    width: 65vw;
+    
+   
+   }
+   
+}
+
+
+
+
+.btn-contact {
+
+    width: auto;
+    height: auto;
+
+    @media only screen and (max-width: 700px) {
+        height: 10vw;
+        width: 37vw;
+        font-size: 3vw;
+        margin: 0;
+    
+   
+   }
+
+    
+}
+
+
+
+.card_projetki {
+    
+    margin-top: 0;
+}
+
+
+
+
+.card_text_end {
+
+
+    font-family: 'Inter', sans-serif;
+    color: #9892E0;
+
+    font-size: 2vw;
+    line-height: 1.875;
+
+    font-weight: 700;
+    opacity: 1;
+    text-align: center;
+
+
+
+    
+
+
+
+
+
+
+    
+    @media only screen and (min-width: 500px) and (max-width: 700px) {
+        font-size: 1.7vw;
+
+    }
+
+    @media only screen and (min-width: 701px) {
+        font-size: 1.2vw;
+    }
+
+
+    
+}
