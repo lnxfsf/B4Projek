@@ -1,5 +1,7 @@
 # B4Projekt
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c83ba827-a337-46b3-a0cc-4a90b61774ed/deploy-status)](https://app.netlify.com/sites/b4projekt/deploys)
+
 Mockup design of website
 
 ![Capture](https://github.com/lnxfsf/B4Projek/assets/99252096/9bdb7c41-1cb8-4d81-bf37-e07b5baa118d)
